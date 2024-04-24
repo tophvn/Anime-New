@@ -70,7 +70,6 @@
             <a href="odd-taxi.html"><img src="images/kimetsu-no-yaiba2.jpg" alt=""></a>
             <a href="odd-taxi.html"><img src="images/detective-conan-main-visual.jpg" alt=""></a>
             <a href="odd-taxi.html"><img src="images/one-piece-zou-visual.jpeg" alt=""></a>
-            <a href="odd-taxi.html"><img src="images/inuyashiki-portada.jpg" alt=""></a>
             <a href="odd-taxi.html"><img src="images/dragon-ball.jpg" alt=""></a>
             <a href="odd-taxi.html"><img src="images/kaguya-sama-love-is-war-portada.jpg" alt=""></a>
             <a href="odd-taxi.html"><img src="images/kimetsu-no-yaiba.jpg" alt=""></a>
@@ -98,9 +97,7 @@
             <a href="odd-taxi.html"><img src="images/one-puch-man.jpg" alt=""></a>
         </div>
     </div>
-
-
-
+    
 
     <!--  FOOTER  -->
     <div class="footer">
@@ -158,10 +155,6 @@
         <div class="empty-block2"></div>
     </div>
 
-
-
-
-
     <script>
         function showWeeklyRank() {
             // Ẩn tất cả các BXH
@@ -169,27 +162,18 @@
             // Hiển thị BXH tuần
             document.getElementById("weeklyRank").style.display = "block";
         }
-
         function showMonthlyRank() {
             hideAllRanks();
             document.getElementById("monthlyRank").style.display = "block";
         }
-
         function showAllRank() {
             hideAllRanks();
             document.getElementById("allRank").style.display = "block";
         }
-
         function hideAllRanks() {
             document.getElementById("weeklyRank").style.display = "none";
             document.getElementById("monthlyRank").style.display = "none";
             document.getElementById("allRank").style.display = "none";
-        }
-        function resetButtonColor() {
-            var buttons = document.getElementsByTagName("button");
-            for (var i = 0; i < buttons.length; i++) {
-                buttons[i].style.color = "white"; // Thiết lập màu chữ trở lại màu trắng
-            }
         }
     </script>
     <script src="js/searchIcon.js"></script>
