@@ -1,4 +1,4 @@
-﻿/*
+/*
   * FUENTES: Noto Sans JP, Ubuntu, Roboto
 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
@@ -325,22 +325,7 @@
     color: #FB3640;
 }
 
-    .btn-group {
-        text-align: right; /* Căn phải */
-    }
 
-    .btn-group button {
-        background-color: red; /* Màu nền đỏ */
-        color: white; /* Màu chữ trắng */
-        border: none; /* Không có viền */
-        padding: 10px 20px; /* Khoảng cách padding */
-        margin-left: 10px; /* Khoảng cách giữa các nút */
-        cursor: pointer; /* Con trỏ khi di chuột */
-    }
-
-    .btn-group button:last-child {
-        margin-left: 0; /* Không có khoảng cách bên phải của nút cuối cùng */
-    }
 
 
 
@@ -376,9 +361,7 @@
 }
 
 
-.btn-group {
-    text-align: right; /* Căn phải */
-}
+
 
 
 
@@ -592,21 +575,3 @@
     font-size: 30px;
     text-align: center;
   }
-
-
-.btn-group {
-    text-align: right; /* Căn phải */
-}
-
-    .btn-group button {
-        background-color: red; /* Màu nền đỏ */
-        color: white; /* Màu chữ trắng */
-        padding: 10px 20px; /* Khoảng cách giữa nút */
-        border: none; /* Loại bỏ viền */
-        border-radius: 5px; /* Bo góc */
-        margin-left: 10px; /* Khoảng cách giữa các nút */
-    }
-
-        .btn-group button:hover {
-            background-color: darkred; /* Màu nền đỏ khi di chuột qua */
-        }
