@@ -493,27 +493,6 @@
             document.getElementById('registerForm').style.display = 'none';
         }
     </script>
-    <script>
-        function search() {
-            var searchText = document.getElementById("mysearch").value.toLowerCase();
-            var animeSections = document.querySelectorAll(".anime-section");
-            animeSections.forEach(function (anime) {
-                var title = anime.querySelector("h2").textContent.toLowerCase();
-                if (title.includes(searchText)) {
-                    anime.style.display = "block"; 
-                } else {
-                    anime.style.display = "none"; 
-                }
-            });
-        }
-        document.getElementById("mysearch").addEventListener("keyup", function (event) {
-            if (event.keyCode === 13) { 
-                search(); 
-            }
-        });
-    </script>
-
-
     <script src="js/img-hover.js"></script>
     <script src="js/searchIcon.js"></script>
 </body>
