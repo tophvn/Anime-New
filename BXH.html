@@ -175,6 +175,12 @@
             document.getElementById("monthlyRank").style.display = "none";
             document.getElementById("allRank").style.display = "none";
         }
+        function resetButtonColor() {
+            var buttons = document.getElementsByTagName("button");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].style.color = "white";
+            }
+        }
     </script>
     <script src="js/searchIcon.js"></script>
 
