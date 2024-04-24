@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bxh.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Movie | Anime New</title>
+</head>
+<body>
+    <!--    HEADER    -->
+    <div class="header">
+        <div class="logo">
+            <h1><a href="index.html">ANIME NEW</a></h1>
+        </div>
+        <div class="nav">
+            <diV class="search">
+                <div class="icon"></div>
+                <div class="input">
+                    <input type="text" id="mysearch" placeholder="Tìm Kiếm...">
+                </div>
+                <span class="clear" onclick="document.getElementById('mysearch').value = '';"></sp>
+            </diV>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="index.html">Xem Ngay</a></li>
+                    <li><a href="animes.html">Animes</a></li>
+                    <li><a href="#">BXH</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="btn-group" style="text-align: center;">
+        <button onclick="showWeeklyRank()" onfocus="this.style.color='green'; resetButtonColor();" style="color: white; background-color: red; border: none; display: inline-block; padding: 5px 10px;">Tuần</button>
+        <button onclick="showMonthlyRank()" onfocus="this.style.color='green'; resetButtonColor();" style="color: white; background-color: red; border: none; display: inline-block; padding: 5px 10px;">Tháng</button>
+        <button onclick="showAllRank()" onfocus="this.style.color='green'; resetButtonColor();" style="color: white; background-color: red; border: none; display: inline-block; padding: 5px 10px;">Tất cả</button>
+    </div>
+
+
+
+    <!--    SECTION    -->
+    <div id="weeklyRank" class="section">
+        <h1><i class="fas fa-angle-double-right"></i> BXH TUẦN</h1>
+        <div class="img-box">
+            <a href="odd-taxi.html"><img src="images/sololeverling.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/kaiju-8.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/hunter-x-hunter-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/overlord-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/one-piece-zou-visual.jpeg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/inuyashiki-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/drstone-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/bleach-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/black-clover.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/yakusoku-no-neverland-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/shokugeki-no-soma-portada.png" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/death-note-portada.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <div id="monthlyRank" class="section" style="display: none;">
+        <h1><i class="fas fa-angle-double-right"></i> BXH THÁNG</h1>
+        <div class="img-box">
+            <a href="odd-taxi.html"><img src="images/kimetsu-no-yaiba.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/sololeverling.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/kimetsu-no-yaiba2.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/detective-conan-main-visual.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/one-piece-zou-visual.jpeg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/inuyashiki-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/dragon-ball.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/kaguya-sama-love-is-war-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/kimetsu-no-yaiba.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/black-clover.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/tokyo-ghoul-portada.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/jujustu-kaisen.png" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/death-note-portada.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <div id="allRank" class="section" style="display: none;">
+        <h1><i class="fas fa-angle-double-right"></i> BXH TẤT CẢ</h1>
+        <div id="allRank2" class="img-box">
+            <a href="odd-taxi.html"><img src="images/shingeki-no-kyojin.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/one-piece-zou-visual.jpeg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/jujustu-kaisen.png" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/black-clover.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/wind-breaker.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/boku-no-hero.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/fairy-tail.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/sololeverling.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/kimetsu-no-yaiba2.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/detective-conan-main-visual.jpg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/one-piece-zou-visual.jpeg" alt=""></a>
+            <a href="odd-taxi.html"><img src="images/one-puch-man.jpg" alt=""></a>
+        </div>
+    </div>
+
+
+
+
+    <!--  FOOTER  -->
+    <div class="footer">
+        <div class="empty-block1"></div>
+        <div class="footer-1">
+            <ul>
+                <li>© Anime New 2024</li>
+                <li><a href="#">Các điều khoản và điều kiện</a></li>
+                <li><a href="#">Chính sách bảo mật</a></li>
+                <li><a href="#">Giới thiệu về chúng tôi</a></li>
+            </ul>
+        </div>
+        <div class="footer-2">
+            <ul class="ul-1">
+                <li><a href="#">Xem ngay</a></li>
+                <li><a href="#">Thể loại</a></li>
+                <li><a href="#">Phổ biến</a></li>
+                <li><a href="#">Đã hoàn thành</a></li>
+            </ul>
+            <ul class="ul-2">
+                <li><a href="#">Đang phát sóng</a></li>
+                <li><a href="#">Mới cập nhật</a></li>
+                <li><a href="#">BXH</a></li>
+                <li><a href="#">Tin tức</a></li>
+            </ul>
+        </div>
+        <div class="footer-3">
+            <div class="img-social">
+                <img src="images/medios-de-comunicacion-social.png" alt="siguenos">
+            </div>
+            <h4>THEO DÕI CHÚNG TÔI</h4>
+            <ul>
+                <li>
+                    <a href="#" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="empty-block2"></div>
+    </div>
+
+
+
+
+
+    <script>
+        function showWeeklyRank() {
+            // Ẩn tất cả các BXH
+            hideAllRanks();
+            // Hiển thị BXH tuần
+            document.getElementById("weeklyRank").style.display = "block";
+        }
+
+        function showMonthlyRank() {
+            hideAllRanks();
+            document.getElementById("monthlyRank").style.display = "block";
+        }
+
+        function showAllRank() {
+            hideAllRanks();
+            document.getElementById("allRank").style.display = "block";
+        }
+
+        function hideAllRanks() {
+            document.getElementById("weeklyRank").style.display = "none";
+            document.getElementById("monthlyRank").style.display = "none";
+            document.getElementById("allRank").style.display = "none";
+        }
+        function resetButtonColor() {
+            var buttons = document.getElementsByTagName("button");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].style.color = "white"; // Thiết lập màu chữ trở lại màu trắng
+            }
+        }
+    </script>
+    <script src="js/searchIcon.js"></script>
+
+</body>
+</html>

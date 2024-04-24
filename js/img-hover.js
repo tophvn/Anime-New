@@ -1,4 +1,4 @@
-let img1 = document.getElementById("img-1");
+﻿let img1 = document.getElementById("img-1");
 let img2 = document.getElementById("img-2");
 
 img1.addEventListener("mouseover", function (event) {
@@ -37,9 +37,6 @@ img2.addEventListener("mouseout", function (event) {
     event.target.style.backgroundImage = "url(images/nagatoro-san-cap7-pic1.jpg)";
     /* event.target.style.pointerEvents = "none"; */
 }, false);
-
-
-
 
 
 

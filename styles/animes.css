@@ -53,40 +53,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   /* HEADER */
   
   .header {
@@ -252,61 +218,6 @@
     transform: rotate(315deg);
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SECTION */
 
 .section {
     margin: 25px 130px 0 130px;
@@ -542,7 +453,6 @@
 }
 
 .dropdown1 .option div:hover {
-  /* background: #E2E2E2; */
   background: #f1f1f1;
   color: #171717;
   padding-left: 30px;
@@ -808,7 +718,6 @@
 }
 
 .dropdown4 .option div:hover {
-  /* background: #E2E2E2; */
   background: #f1f1f1;
   color: #171717;
   padding-left: 30px;
@@ -817,15 +726,6 @@
 
 
 
-
-
-
-
-
-
-/*
-  BOTON DE FILTRAR
-*/
 
 .btnFilter input {
   font-size: 13px;
@@ -854,23 +754,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-  SECCION DE LAS IMAGENES
-*/
 
 .section .img-box {
   display: grid;
@@ -901,9 +784,6 @@
 
 
 
-/*
-  PAGINACION
-*/
 
 .pagination {
   margin: 44px auto;
