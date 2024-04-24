@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/slide.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Anime New | Xem Anime Mới - Miễn Phí</title>
 </head>
 
@@ -82,6 +84,40 @@
             </form>
         </div>
     </div>-->
+    <br />
+    <br />
+    <div class="slider">
+        <div class="slide current">
+            <div class="content">
+                <h1>KAIJUU 8-GOU</h1>
+                <p>Kaiju số 8 lấy bối cảnh tại một thế giới mà những con quái vật mang tên kaiju thường xuyên gây ra các thảm họa...</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h1>BOKU NO HERO ACADEMIA</h1>
+                <p>Khi một người anh hùng mới quá đỗi bình thường xuất hiện, liệu tiếp theo, chuyện gì sẽ xảy ra với cuộc sống của anh ta?...</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h1>TENSEI SHITARA SLIME DATTA KEN</h1>
+                <p>LoremCâu chuyện bắt đầu với anh chàng Satoru Mikami, một nhân viên 37 tuổi sống cuộc sống chán chường và không vui vẻ gì...</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h1>WIND BREAKER</h1>
+                <p>Một bộ truyện tranh chứa đầy adrenaline lấy bối cảnh một trường trung học dành cho những kẻ phạm tội hiện là anh hùng...</p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="prev"><i class="fas fa-arrow-left"></i></button>
+        <button id="next"><i class="fas fa-arrow-right"></i></button>
+    </div>
+
+
     <!--    VIDEOS MỚI   -->
     <div class="video-section">
         <h1 class="title-d"><i class="fas fa-angle-double-right"></i>TẬP MỚI NHẤT</h1>
@@ -201,7 +237,6 @@
 
         </diV>
     </div>
-
 
     <!--    ANIME TRONG NGÀY / TUẦN   -->
     <div class="grid-section">
@@ -428,7 +463,7 @@
         <div class="empty-block1"></div>
         <div class="footer-1">
             <ul>
-                <li>© Nhom 6 2024</li>
+                <li>© Anime New 2024</li>
                 <li><a href="#">Các điều khoản và điều kiện</a></li>
                 <li><a href="#">Chính sách bảo mật</a></li>
                 <li><a href="#">Giới thiệu về chúng tôi</a></li>
@@ -492,9 +527,10 @@
         function closeRegisterForm() {
             document.getElementById('registerForm').style.display = 'none';
         }
+
     </script>
     <script src="js/img-hover.js"></script>
     <script src="js/searchIcon.js"></script>
+    <script src="js/slide.js"></script>
 </body>
-
 </html>
